@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <dependencies>
+      <group targetFramework="net45">
+        <dependency id="Wiki.Service.Common.Clients" version="[1.0.16272.01,1.2)" />
+        <dependency id="Wiki.ApiClient.Core" version="[1.0.15170,1.2)" />
+        <dependency id="Wiki.Core" version="[1.0.15282.10,1.2)" />
+      </group>
+    </dependencies>
+    <id>Wiki.PriceSender.Client</id>
+    <version>1.0.16211.02</version>
+    <title>Wiki.PriceSender.Client</title>
+    <authors>LAF</authors>
+    <owners>LAF</owners>
+    <description>Client for Wiki.PriceSender.Service</description>
+    <language />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <releaseNotes>
+Version 1.0.15147 (27.05.2015)
+Create new package
+    </releaseNotes>
+    <copyright>Copyright ©  2015</copyright>
+  </metadata>
+  <files>
+    <file src="Wiki.PriceSender.Client.*" target="lib\net45" />
+    <file src="Wiki.PriceSender.Dto.*" target="lib\net45" />
+  </files>
+</package>
+
+
